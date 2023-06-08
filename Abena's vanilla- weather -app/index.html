@@ -11,13 +11,73 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"/>
     <title>My Weather App</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Hello World</h1>
-      <a href="" class="btn btn-primary">click me</a>
+  <div class="forecast">
+  <div class="container">
+      <h1>Weather App</h1>
+    <div class="card-body">
+<div class="card">
+          <form>
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Search City or ZipCode"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Search"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <input type="submit" class="btn btn-primary" value="Current" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <button>Woodbridge VA,as of Tuesday 9:21pm ED</button>
+    <h2>
+      <p><strong>52</strong>°F|°C</p>
+    </h2>
+		<small>clear</small>
+
+		<div class="col-6">
+		<div class="grid text-center">
+    <ul>
+      <li>Precipitation:10%</li>
+      <li>Humidity:57%</li>
+			<li>wind:4mph</li>
+		</ul>
+		</div>
+	</div>
+  <div class="Temperature"></div>
+  <div class="container text-center">
+  <div class="row row-cols-5">
+    <div class="col">43°🌤️Wed</div>
+    <div class="col">48°🌤️Thu</div>
+    <div class="col"> 54°🌧️Friday</div>
+    <div class="col">56°☁️Sat </div>
+    <div class="col">52°☁️Sun</div>
+  </div>
+		</div>
     </div>
     <script src="src/app.js"></script>
   </body>
-</html>
+</html
