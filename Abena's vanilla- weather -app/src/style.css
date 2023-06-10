@@ -46,8 +46,18 @@ li {
 .instant {
   margin-bottom: 20px;
 }
-.energy {
-  text-align: center;
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 65px;
+  width: 65px;
+}
+
+.weather-temperature strong {
+  color: aquamarine;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 65px;
 }
 
 .temperature {
