@@ -2,14 +2,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.forecast {
-  border: 1px solid #6495ed;
-  padding: 15px;
-  margin: 20px;
-  border-radius: 30px;
-  max-width: 600px;
-}
-
 h1 {
   text-align: center;
   font-weight: 900;
@@ -42,6 +34,15 @@ li {
   padding: 0;
   margin: 0;
 }
+
+.forecast {
+  border: 1px solid #6495ed;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 30px;
+  max-width: 600px;
+}
+
 .energy {
   text-align: center;
 }
