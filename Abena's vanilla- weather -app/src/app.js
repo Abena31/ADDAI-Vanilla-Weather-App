@@ -36,6 +36,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "e8d4b7a751f8c833058726ca48c6c090";
+let city = "Paris";
 let apiEndpoint =
   "https://api.openweathermap.org/data/2.5/weather?g=${city}&appid=${apiKey}&units=metric";
 
