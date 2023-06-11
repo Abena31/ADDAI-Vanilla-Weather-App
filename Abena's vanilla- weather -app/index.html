@@ -35,27 +35,28 @@ autocomplete="off"
 </div>
   </div>
 </form>
+<div class = "over">
      <h2 id="city"></h2>
     <ul>
-      <li > last updated:<span id = "gdate"></span></li>
+      <li>last updated: <span id = "gdate"></span></li>
      <li id = "sort"></li>
     </ul>
+</div>
     <div class ="row">
   <div class="col-6">
     <div class="d-flex weather-temperature" >
-    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-     alt="Clear"
-     class="d-flex"
-     />
+    <img src="" alt="Clear" id="icon" class="d-flex"/>
      <div class="d-flex">
-      <strong id ="temperature"></strong><span class="units">°C | <a href="#"> °F</a></span>
+      <strong id="temperature"></strong><span class="units"
+      ><a href = "#" id ="celsius-link" class = "active" >°C </a> |
+        <a href="#" id="fahrenheit-ink"> °F</a></span>
      </div>
      </div>
     </div>
     </div>
-     <div class="col-2">
+     <div class="col-6">
     <ul>
-      <li>Humidity: <span id="moist"></span> % </li>
+      <li>Humidity: <span id="moist"></span>%</li>
 			<li>wind:<span id="air"></span>km/h</li>
 		</ul>
 	</div>

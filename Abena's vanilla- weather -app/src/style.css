@@ -47,7 +47,7 @@ li:first-letter {
   margin: 30px auto;
 }
 
-.instant {
+.overview {
   margin-bottom: 20px;
 }
 
@@ -64,6 +64,13 @@ li:first-letter {
   font-size: 65px;
 }
 
-.temperature {
-  position: static;
+.weather-temperature.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature.active {
+  color: #f0ffff;
+  cursor: default;
 }
