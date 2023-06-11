@@ -8,8 +8,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    /> <link rel="stylesheet" href="src/style.css" />
+      crossorigin="anonymous" /> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,10 +19,8 @@
        <title>My Weather App</title>
   </heaad>
   <body><h1>Weather App</h1>
-    <div class="forecast">
  <div class="container">
  <div class="instant">
-  <h2>Woodbridge</h2>
 <div class="card-body">
 <div class="card">
           <form>
@@ -49,14 +48,12 @@
         </div>
       </div>
     </div>
- </div>
+     <h2 id="city"></h2>
     <ul>
       <li>
-        Friday 9:21
+        Friday 05:00
       </li>
-      <li>
-        Clear
-      </li>
+      <li id = "sort"></li>
     </ul>
     <div class ="row">
   <div class="col-6">
@@ -65,9 +62,11 @@
      alt="Clear"
      class="d-flex"
      />
-     <div class="d-flex"><strong> 52</strong>°C|°F 
+     <div class="d-flex">
+      <strong id ="forecast"></strong><span class="units">°C | <a href="#"> °F</a></span>
      </div>
      </div>
+    </div>
     </div>
      <div class="col-6">
     <ul>
@@ -75,24 +74,20 @@
       <li>Humidity:57%</li>
 			<li>wind:4mph</li>
 		</ul>
-		</div>
+ </div>
 	</div>
-  <div class="Temperature"></div>
-  <div class="container text-center">
-  <div class="row row-cols-5">
-    <div class="col">43°🌤️Wed</div>
-    <div class="col">48°🌤️Thu</div>
-    <div class="col"> 54°🌧️Friday</div>
-    <div class="col">56°☁️Sat </div>
-    <div class="col">52°☁️Sun</div>
   </div>
   </div>
  </div>
   <small><a href= "https://github.com/Abena31/ADDAI-Vanilla-Weather-App" target ="_blank"> Open-source code</a> ,by Abena Obenewaa Addai</small>
 </div>
 </div>
-
-    <script src="src/app.js"></script>
+<script src="src/app.js"></script>
     
   </body>
 </html
+
+
+
+
+

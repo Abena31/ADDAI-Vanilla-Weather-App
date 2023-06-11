@@ -35,12 +35,12 @@ li {
   margin: 0;
 }
 
-.forecast {
+.container {
   border: 1px solid #6495ed;
-  padding: 15px;
+  padding: 18px;
   border-radius: 30px;
   max-width: 600px;
-  margin: 20px;
+  margin: 30px auto;
 }
 
 .instant {
