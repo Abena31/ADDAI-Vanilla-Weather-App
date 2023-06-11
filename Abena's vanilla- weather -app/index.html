@@ -51,10 +51,8 @@
     </div>
      <h2 id="city"></h2>
     <ul>
-      <li>
-        Friday 05:00
-      </li>
-      <li id = "sort"></li>
+      <li > last updated:<span id = "gdate"></span></span>/li>
+     <li id = "sort"></li>
     </ul>
     <div class ="row">
   <div class="col-6">
@@ -64,16 +62,15 @@
      class="d-flex"
      />
      <div class="d-flex">
-      <strong id ="forecast"></strong><span class="units">°C | <a href="#"> °F</a></span>
+      <strong id ="temperature"></strong><span class="units">°C | <a href="#"> °F</a></span>
      </div>
      </div>
     </div>
     </div>
-     <div class="col-6">
+     <div class="col-2">
     <ul>
-      <li>Precipitation:10%</li>
-      <li>Humidity:57%</li>
-			<li>wind:4mph</li>
+      <li>Humidity: <span id="moist"></span> % </li>
+			<li>wind:<span id="air"></span>km/h</li>
 		</ul>
 	</div>
   </div>
